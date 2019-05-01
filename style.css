@@ -1,42 +1,48 @@
+/*Corp*/
 body{
-    background-color: rgb(235, 235, 235);
+    background-color: #e4dfd4;
+    font-family:Open-Sans, Montserrat;
 }
-main{
-    text-align:center;
-    margin-left:30%;
-    margin-right:30%;
-}
+
+/*Intro */
 .intro{
-    background-color: white;
+    background-color:white;
+    width:50%;
+    text-align:justify;
+    padding:15px;
+    margin:auto;
 }
 .profil{
-    border-radius: 50%;
-    border-color:rgb(216, 216, 216);
-    width:95px;
-    height: 95px;
-    margin-top:17px;
-}
-.lien{
-    margin-top:20px;
-    background-color: white;
-    
-}
-.film{
-    margin-top:20px;
-    background-color: white;
-}
-li{
-    list-style: none; 
-    
+    border-style:solid;
+    border-color:grey;
+    border-radius:50%;
+    height:100px;
+    width:100px;
+    margin-left:40%;
 }
 h1{
-    color:rgb(241, 69, 69)
+    color:#bd2a34;
+    text-align:center;
 }
-.film img{
-    width:75px;
-    height: 100px;
-    margin-left:30px;
+.intro h2{
+    text-align:center;
 }
-h3{
-    margin-top:10px;
+.boutton{
+    background-color: #bd2a34;
+    color:white;
+    text-align:center;
+    width: 110px;
+    height: 55px;
+    border-radius:10%;
+    margin-left:40%;
+}
+/*Lien*/
+.lien{
+    background-color: white;
+    text-align:center; 
+    list-style: none;
+}
+ul.lien li{
+    display:inline-block; 
+    padding:18px;
 }
