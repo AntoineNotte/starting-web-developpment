@@ -2,16 +2,32 @@
 body{
     background-color: #e4dfd4;
     font-family:Open-Sans, Montserrat;
+    width:100%;
 }
-
+.mp{
+        background-color:white;
+		color:gray;	
+        border-radius:1%;
+}
+.dv{
+    width:50%;
+    margin: auto;
+    background-color:white;
+	color:gray;	
+    border-radius:1%;
+}
+.mp a{
+    opacity: 1;
+}
 /*Intro */
 .intro{
     background-color:white;
     width:50%;
     text-align:justify;
-    padding:15px;
     margin:auto;
+    border-radius:1%;
 }
+
 .profil{
     border-style:solid;
     border-color:grey;
@@ -19,30 +35,75 @@ body{
     height:100px;
     width:100px;
     margin-left:40%;
+    margin-right:40%;
+    margin-top:20px;
 }
+
 h1{
     color:#bd2a34;
     text-align:center;
+    opacity:0.9;
+    font-size:22px;
+    font-weight:bold;
 }
-.intro h2{
+.intro h3{
     text-align:center;
+    color:grey;
+    font-size:18px;
 }
-.boutton{
+#bouton{
     background-color: #bd2a34;
     color:white;
     text-align:center;
-    width: 110px;
-    height: 55px;
+    width: 145px;
+    height: 45px;
     border-radius:10%;
     margin-left:40%;
+    margin-bottom: 10px;
 }
 /*Lien*/
 .lien{
     background-color: white;
     text-align:center; 
     list-style: none;
+    font-size: 18px;
+    border-radius:1%;
+    
 }
 ul.lien li{
     display:inline-block; 
-    padding:18px;
+    padding:15px;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    color:grey;
+    opacity: 0.6;
+}
+
+/*film*/
+.film{
+    padding: 7%;
+}
+.film img{
+    width: 100px;
+    height:140px;
+    margin-top:10px;
+}
+.film p{
+    opacity : 0.9;;
+    margin-left:12px
+}
+.film h3{
+    text-align:center;
+    margin-top:-8px;
+}
+.film h5{
+    text-align:center;
+    font-size:17px;
+}
+mark{
+    color:grey;
+    background-color: rgb(204, 204, 204);
 }
